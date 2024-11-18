@@ -1,0 +1,68 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+header{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(83,76,3,1) 64%, rgba(230,228,0,1) 100%);
+    border-bottom: 2px solid gold;
+}
+nav {
+    margin-left:15px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    text-transform: uppercase;
+    padding-left: 10px;
+    height: 100%;
+}
+li{
+    height: 100%;
+}
+li > a{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+li > a:hover{
+    background-color: gold;
+    color: black;
+}
+.hdr-logo{
+    height: 50px;
+    width: auto;
+
+}
+
+
+header button{
+    padding: 15px;
+    width: 180px;
+    background-color: #020024;
+    border: 2px solid gold;
+}
+header button > a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header button:hover{
+    background-color: gold;
+    color:black;
+}
