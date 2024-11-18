@@ -5,12 +5,16 @@
     color: white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
+
 header{
     display: flex;
+    position: fixed;
+    width: 100%;
     height: 80px;
     align-items: center;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(83,76,3,1) 64%, rgba(230,228,0,1) 100%);
-    border-bottom: 2px solid gold;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 58%, rgba(184,134,11,1) 100%);
+    border-bottom: 2px solid darkgoldenrod;
+    
 }
 nav {
     margin-left:15px;
@@ -41,7 +45,7 @@ li > a{
     font-weight: bolder;
 }
 li > a:hover{
-    background-color: gold;
+    background-color: darkgoldenrod;
     color: black;
 }
 .hdr-logo{
@@ -54,8 +58,8 @@ li > a:hover{
 header button{
     padding: 15px;
     width: 180px;
-    background-color: #020024;
-    border: 2px solid gold;
+    background-color: #000000;
+    border: 2px solid darkgoldenrod;
 }
 header button > a{
     text-transform: uppercase;
@@ -63,6 +67,61 @@ header button > a{
     font-weight: bolder;
 }
 header button:hover{
-    background-color: gold;
-    color:black;
+    background-color: darkgoldenrod;
+    color: black;
 }
+
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+    
+}
+ #background-video {
+    position: absolute;
+    width: 100vw;
+    height: 800px;
+    object-fit:fill;
+    z-index: -1;
+    border-bottom: 2px solid darkgoldenrod;
+    opacity: 80%;
+ }
+ #hero img {
+    height: 300px;
+    width: auto;
+ }
+ 
+ .cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+ }
+
+ h1 {
+    text-transform: uppercase;
+    font-size: 4em;
+    color: darkgoldenrod;
+    font-weight: bolder;
+ }
+
+ .cta button{
+    padding: 15px;
+    width: 300px;
+    background-color: #000000;
+    border: 2px solid darkgoldenrod;
+ }
+ .cta button > a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bolder;
+ }
+
+ .cta button:hover {
+    background-color: darkgoldenrod;
+    color: black;
+ }
