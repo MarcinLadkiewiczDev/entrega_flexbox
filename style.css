@@ -8,7 +8,7 @@
 body {
     background-color: black;
 }
-
+ /* HEADER */
 header{
     display: flex;
     position: fixed;
@@ -72,7 +72,7 @@ header button:hover{
     background-color: darkgoldenrod;
     color: black;
 }
-
+/* HERO + CTA */
 
 #hero {
     display: flex;
@@ -133,7 +133,7 @@ h1 {
     background-color: darkgoldenrod;
     color: black;
  }
-
+ /* MAIN PLATAFORMAS */
 #plataformas {
     background-color: #000000;
     width: 100%;
@@ -154,7 +154,7 @@ h1 {
 #plataformas img {
     height: 30px;
  }
-
+/* MAIN JUEGO */
 #juego {
     background-image: url(./assets/1366_2000.webp);
     height: 600px;
@@ -184,7 +184,6 @@ h1 {
  }
 #juego p{
     font-size: 1.5em;
-    text-shadow: 4px 4px 8px black ;
  }
 #juego button {
     padding: 15px;
@@ -201,7 +200,7 @@ h1 {
     background-color: darkgoldenrod;
     color: black;
  }
-
+/* MAIN NOTICIAS */
 #noticias {
     display: flex;
     flex-direction: column;
@@ -265,6 +264,8 @@ h1 {
     background-color: darkgoldenrod;
     color: black;
 }
+
+/* FOOTER SOCIAL */
 #social{
     border-bottom:1px solid darkgoldenrod;
 }
@@ -279,6 +280,7 @@ h1 {
     align-items: center;
     justify-content: center;
 }
+/* FOOTER ABOUT */
 #about {
     display:flex;
     flex-direction: column;
@@ -316,7 +318,4 @@ h1 {
     width: 100%;
     align-items: center;
     justify-content: center;
-}
-.legal li:last-child{
-    align-self: flex-end;
 }
