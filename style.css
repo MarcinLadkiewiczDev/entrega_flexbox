@@ -182,12 +182,20 @@ h1 {
     list-style-type: none;
     align-items: center;
     justify-content: center;
-    gap: 60px;
+    gap: 50px;
  }
 
 #plataformas img {
     height: 30px;
  }
+ @media (max-width: 780px){
+    #plataformas ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+ }
+
 /* MAIN JUEGO */
 #juego {
     background-image: url(./assets/1366_2000.webp);
